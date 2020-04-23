@@ -6,6 +6,8 @@ a {
     text-decoration: none;
 }
 
+/* Top Navigation */
+
 #top-spacer {
     width: 100vw;
     position: relative;
@@ -26,6 +28,7 @@ nav {
 
 nav li:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 #left-navigation {
@@ -54,6 +57,7 @@ nav li:hover {
 
 #right-navigation li:hover {
     color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
 
 #apps-gliph {
@@ -84,4 +88,58 @@ nav li:hover {
 
 #sign-in:hover {
     box-shadow: 0px 1px 2px hsl(217, 76%, 78%);
+}
+
+/* Search area */
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+    width: 518px;
+}
+
+.search-container {
+    background-color: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    flex-grow: inherit;
+}
+
+.search-buttons {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-top: 11px;
+    padding-top: 18px;
+
+}
+
+.search-button-item {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding:0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.search-button-item:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+#seach-bar {
+  border: 0px solid transparent;
 }
