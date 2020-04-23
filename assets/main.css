@@ -90,6 +90,17 @@ nav li:hover {
     box-shadow: 0px 1px 2px hsl(217, 76%, 78%);
 }
 
+
+/* Logo */
+.logo {
+    height: 233px;
+    margin-top: 89px;
+}
+
+.homepage-logo {
+    
+}
+
 /* Search area */
 
 .container {
@@ -107,7 +118,6 @@ nav li:hover {
     border-radius: 24px;
     height: 44px;
     margin: 0 auto;
-    flex-grow: inherit;
 }
 
 .search-container-inner {
@@ -118,7 +128,7 @@ nav li:hover {
 }
 
 .sinput {
-
+    display: flex;
 }
 
 .search-input-text {
@@ -131,7 +141,7 @@ nav li:hover {
     outline: none;
     display: flex;
     flex: 100%;
-    margin-top: -37px;
+    margin-top: 3px;
     font-size: 16px;
 }
 
@@ -202,4 +212,9 @@ nav li:hover {
     justify-content: center;
     font-size: small;
     margin-top: 12px;
+    color: #1a0dab;
+}
+
+.tag-line:hover {
+    text-decoration: underline;
 }
