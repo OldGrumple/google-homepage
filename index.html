@@ -7,6 +7,10 @@
         <meta charset="utf-8"/>
     </head>
     <body>
+        <!-- Top Navigation
+             split into left and right nav compontents made with flex
+             using un-ordered lists with a nested button for the sign in (could be done with a div and an anchor tag).
+        -->
     <div id="top-spacer">
         <nav>
             <ul id="left-navigation">
@@ -23,7 +27,10 @@
     </div>
         <main>
 
-            <!--Logo Markup starts-->
+            <!--Logo Markup starts
+                Simple nested divs to create the container with display flex
+                an anchor tag that contains a local img tag
+            -->
             <div class="logo">
                 <div class="homepage-logo">
                     <a href="#" style="text-decoration: none;">
@@ -33,7 +40,10 @@
             </div>
             <!--Logo Markup ends-->
 
-            <!-- Search Bar & Button markup starts-->
+            <!-- Search Bar & Button markup starts
+                 The search bar is slightly more complicated with a series of nested divs just how Google do it
+                 the whole look could be achived with: a container div, input type text, and a span tag containing the svg icon. 
+            -->
             <div class="container">
                 <div class="search-container">
                     <div class="search-container-inner">
@@ -59,6 +69,9 @@
             </div>
             <!-- Search Bar & Button markup ends-->
         </main>
+        <!-- Footer & Tag line markup starts
+             
+        -->
         <footer>
             <div class="tag-line">
                 <a href="">Stay at Home. Protect the NHS. Save Lives</a>
