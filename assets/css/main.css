@@ -96,7 +96,7 @@ nav li:hover {
 /* Logo */
 .logo {
     height: 233px;
-    margin-top: 89px;
+    margin-top: 173px;
     display: flex;
     justify-content: center;
     margin-bottom: -100px;
@@ -231,4 +231,67 @@ nav li:hover {
 
 .tag-line:hover {
     text-decoration: underline;
+}
+
+#footer {
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: fixed;
+    width: 100%;
+    color: #5f6368;
+}
+
+.ft-inner {
+    display: block;
+}
+
+.ft-bar {
+    background-color: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    font-size: 14px;
+    display: flex;
+}
+
+.ft-left {
+    list-style: none;
+    display: inline-flex;
+    padding-left: 30px;
+}
+
+.ft-right {
+    list-style: none;
+    display: inline-flex;
+    margin-left: auto;
+    padding-right: 30px;
+}
+
+.ft-nav {
+    padding-left: 15px;
+}
+
+#ft-bar-config {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.ft-nav-end {
+    padding-left: 15px;
+}
+
+.ft-nav-start {
+    padding-left: 0;
+}
+
+.ft-nav-end:hover, .ft-nav-start:hover, .ft-nav:hover {
+    text-decoration: underline;
+}
+
+
+.ft-nav-end:visited, .ft-nav-start:visited, .ft-nav:visited {
+    color: #5f6368;
 }
